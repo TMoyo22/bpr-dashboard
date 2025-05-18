@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supervisor Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>📊 Supervisor Dashboard</h1>
+    <p>Real-Time Escalation & SLA Monitoring</p>
+  </header>
+
+  <section class="kpi-container">
+    <div class="card">
+      <h2>🔁 Escalations Today</h2>
+      <p>15</p>
+    </div>
+    <div class="card">
+      <h2>⏱️ SLA Violations</h2>
+      <p class="alert">3</p>
+    </div>
+    <div class="card">
+      <h2>👍 Satisfaction Score</h2>
+      <p>82%</p>
+    </div>
+    <div class="card">
+      <h2>📨 AI-Generated Tickets</h2>
+      <p>24</p>
+    </div>
+  </section>
+
+  <section class="trend-section">
+    <h2>📈 Pattern Alerts (AI & ERP)</h2>
+    <ul>
+      <li>Repeated complaint: "Dropped calls" – 7 cases</li>
+      <li>Billing delays frequently escalate from Tier 1</li>
+      <li>Customer wait time rising post-4PM</li>
+    </ul>
+  </section>
+
+  <section class="feedback-section">
+    <h2>📝 Post-Call Feedback Summary</h2>
+    <ul>
+      <li>✔️ 65% Positive</li>
+      <li>⚠️ 20% Neutral (highlighting long hold times)</li>
+      <li>❌ 15% Negative (poor escalation experience)</li>
+    </ul>
+  </section>
+
+  <section class="tickets-section">
+    <h2>🚨 Latest Escalated Tickets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticket ID</th>
+          <th>Issue</th>
+          <th>Agent</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>#1053</td>
+          <td>Billing error</td>
+          <td>Thandolwethu</td>
+          <td class="status pending">Pending</td>
+        </tr>
+        <tr>
+          <td>#1051</td>
+          <td>Connection drop</td>
+          <td>Eric</td>
+          <td class="status escalated">Escalated</td>
+        </tr>
+        <tr>
+          <td>#1048</td>
+          <td>Incorrect package</td>
+          <td>Felix</td>
+          <td class="status resolved">Resolved</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>AI & ERP | Group 9 – BPR Module</p>
+  </footer>
+</body>
+</html>
